@@ -1,0 +1,5 @@
+timestamp,customer,agent_id,agent_name,action,amount_inr,decision,rule,reason
+2026-11-22T07:58:18+05:30,Demo Customer,AGENT-001,TravelBuddy Demo,View fares,0.0,ALLOW,R3,Registered and active agent; viewing fares is read-only.
+2026-11-22T08:03:17+05:30,Demo Customer,AGENT-001,TravelBuddy Demo,Book flight / make payment,60000.0,ASK CUSTOMER,R6,"₹60,000.00 is above the ₹50,000 spending limit. Customer confirmation is required."
+2026-11-22T08:05:43+05:30,Demo Customer,UNKNOWN-999,Unknown,View fares,0.0,BLOCK,R1,The agent is not registered.
+2026-11-22T08:08:49+05:30,Demo Customer,AGENT-001,TravelBuddy Demo,View fares,0.0,BLOCK,R2,The agent's permission was revoked at 2026-11-22T08:07:56+05:30.

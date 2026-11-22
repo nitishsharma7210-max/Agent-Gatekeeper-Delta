@@ -1,0 +1,16 @@
+{
+  "AGENT-001": {
+    "name": "TravelBuddy Demo",
+    "customer": "Demo Customer",
+    "active": false,
+    "registered_at": "2026-11-22T07:43:39+05:30",
+    "revoked_at": "2026-11-22T08:07:56+05:30",
+    "permissions": [
+      "View fares",
+      "View booking details",
+      "Book flight / make payment",
+      "Change booking",
+      "Request refund"
+    ]
+  }
+}
